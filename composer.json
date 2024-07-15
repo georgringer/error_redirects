@@ -1,0 +1,34 @@
+{
+	"name": "georgringer/error-redirects",
+	"type": "typo3-cms-extension",
+	"description": "",
+	"keywords": [
+		"TYPO3",
+		"extension",
+		"redirect",
+		"error"
+	],
+	"authors": [
+		{
+			"name": "Georg Ringer",
+			"email": "mail@ringer.it",
+			"role": "Developer"
+		}
+	],
+	"license": [
+		"GPL-2.0-or-later"
+	],
+	"require": {
+		"typo3/cms-redirects": "^12 || ^13"
+	},
+	"autoload": {
+		"psr-4": {
+			"GeorgRinger\\ErrorRedirects\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "error_redirects"
+		}
+	}
+}
